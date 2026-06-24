@@ -1,70 +1,202 @@
-# Getting Started with Create React App
+# NOOH Living Elevated - Luxury Interior Design Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A premium, production-ready luxury interior design website built with React.js, Tailwind CSS, Framer Motion, and GSAP.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- **Luxury Design**: Black, gold, and white color palette with premium glassmorphism effects
+- **Smooth Animations**: Framer Motion and GSAP scroll animations
+- **Fully Responsive**: Mobile, tablet, and desktop optimized
+- **SEO Optimized**: React Helmet for meta tags and SEO
+- **Modern UI/UX**: Floating WhatsApp button, sticky navigation, scroll progress indicator
+- **Interactive Components**: Animated statistics counter, before/after showcase, lightbox gallery
+- **Performance**: Fast loading with optimized images and code splitting
 
-### `npm start`
+## 📦 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js** - Frontend framework
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **GSAP** - Professional animation platform
+- **React Router** - Navigation
+- **React Icons** - Icon library
+- **Swiper** - Modern slider
+- **AOS** - Animate on scroll library
+- **React Helmet Async** - SEO management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+cd nooh-living-elevated
+npm install
+```
 
-### `npm run build`
+### Development
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app will run on [http://localhost:3000](http://localhost:3000)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Build for Production
 
-### `npm run eject`
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Creates optimized production build in the `build` folder.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+nooh-living-elevated/
+├── public/
+│   ├── index.html
+│   ├── logo.png
+│   └── images/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ScrollProgress.jsx
+│   │   ├── WhatsAppButton.jsx
+│   │   └── home/
+│   │       ├── Hero.jsx
+│   │       ├── Stats.jsx
+│   │       ├── FeaturedServices.jsx
+│   │       ├── FeaturedProjects.jsx
+│   │       ├── WhyChoose.jsx
+│   │       └── CTASection.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Services.jsx
+│   │   ├── Products.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Skylume.jsx
+│   │   ├── NoohStar.jsx
+│   │   ├── Testimonials.jsx
+│   │   └── Contact.jsx
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎨 Pages
 
-## Learn More
+1. **Home** - Hero section, stats, featured services, projects, why choose us
+2. **About Us** - Company overview, mission, vision, values
+3. **Services** - All services with detailed descriptions
+4. **Products** - Gallery with category filters and lightbox
+5. **Projects** - Portfolio with category filters
+6. **NOOH SKYLUME™** - Artificial daylight systems showcase
+7. **NOOHSTAR™** - Fiber optic star ceiling systems
+8. **Testimonials** - Client reviews with ratings
+9. **Contact** - Contact form, map, business hours
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Key Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Navigation
+- Sticky navbar with glassmorphism effect
+- Mega menu for sub-navigation
+- Mobile responsive hamburger menu
+- Smooth scroll to sections
 
-### Code Splitting
+### Animations
+- GSAP scroll-triggered animations
+- Framer Motion page transitions
+- Animated counters for statistics
+- Hover effects on cards and images
+- Entrance animations with AOS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Interactive Elements
+- Floating WhatsApp button with pulse animation
+- Scroll progress indicator
+- Lightbox image viewer
+- Before/After project showcase
+- Swiper sliders for galleries
+- Filter functionality for products/projects
 
-### Analyzing the Bundle Size
+### Forms
+- Contact form with validation
+- Project type selector
+- Google Maps integration
+- Phone and email links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### SEO & Performance
+- React Helmet for dynamic meta tags
+- Semantic HTML structure
+- Lazy loading images
+- Optimized asset delivery
+- Fast loading times
 
-### Making a Progressive Web App
+## 🎨 Color Palette
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Black**: #0a0a0a (luxury-black)
+- **Gold**: #d4af37 (luxury-gold)
+- **White**: #ffffff (luxury-white)
+- **Gray**: #1a1a1a (luxury-gray)
 
-### Advanced Configuration
+## 📱 Responsive Breakpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Mobile**: < 640px
+- **Tablet**: 640px - 1024px
+- **Desktop**: > 1024px
 
-### Deployment
+## 🔧 Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Update Company Information
 
-### `npm run build` fails to minify
+Edit the contact details in:
+- `src/components/Footer.jsx`
+- `src/pages/Contact.jsx`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Add/Modify Services
+
+Update service data in:
+- `src/components/home/FeaturedServices.jsx`
+- `src/pages/Services.jsx`
+
+### Change Colors
+
+Edit `tailwind.config.js`:
+```javascript
+colors: {
+  luxury: {
+    black: '#0a0a0a',
+    gold: '#d4af37',
+    // ...
+  }
+}
+```
+
+### Add Images
+
+Place images in `public/images/` and update image paths in components.
+
+## 📞 Contact Information
+
+- **Address**: D-180, Sector 10, Noida - 201301, India
+- **Phone**: +91 9540060180, +91 9958748979
+- **Email**: info@noohliving.com
+- **Website**: www.noohliving.com
+
+## 📄 License
+
+© 2024 NOOH Living Elevated LLP. All Rights Reserved.
+
+## 🤝 Support
+
+For any queries or support, please contact:
+- Email: info@noohliving.com
+- Phone: +91 9540060180
+
+---
+
+**Built with ❤️ for NOOH Living Elevated LLP**

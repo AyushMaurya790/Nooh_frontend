@@ -57,11 +57,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Luxury Button */
 .btn-luxury {
-  @apply px-8 py-4 bg-gradient-gold text-luxury-black font-bold uppercase tracking-wider rounded-full smooth-transition hover:scale-105 hover:shadow-2xl hover:shadow-gold-500/50;
+  @apply px-8 py-4 bg-gradient-gold text-luxury-black font-bold uppercase tracking-wider rounded-full smooth-transition;
 }
 
 .btn-outline-gold {
-  @apply px-8 py-4 border-2 border-luxury-gold text-luxury-gold font-bold uppercase tracking-wider rounded-full smooth-transition hover:bg-luxury-gold hover:text-luxury-black;
+  @apply px-8 py-4 border-2 border-luxury-gold text-luxury-gold font-bold uppercase tracking-wider rounded-full smooth-transition;
+}
+
+.btn-luxury:hover {
+  transform: scale(1.05);
+  box-shadow: 0 25px 50px -12px rgba(234, 179, 8, 0.5);
+}
+
+.btn-outline-gold:hover {
+  @apply bg-luxury-gold text-luxury-black;
 }
 
 /* Text Gradient */
@@ -114,3 +123,154 @@ h1, h2, h3, h4, h5, h6 {
 .container-custom {
   @apply max-w-7xl mx-auto;
 }
+
+
+/* Swiper carousel essentials (plain CSS to avoid Swiper v12 nested CSS in CRA/Tailwind builds) */
+.swiper {
+  display: block;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.swiper-wrapper {
+  box-sizing: content-box;
+  display: flex;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  width: 100%;
+  z-index: 1;
+}
+
+.swiper-slide {
+  display: block;
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  width: 100%;
+}
+
+.swiper-3d {
+  perspective: 1200px;
+}
+
+.swiper-3d .swiper-wrapper,
+.swiper-3d .swiper-slide {
+  transform-style: preserve-3d;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  align-items: center;
+  color: var(--swiper-navigation-color, #d4af37);
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  margin-top: -22px;
+  position: absolute;
+  top: 50%;
+  width: 44px;
+  z-index: 10;
+}
+
+.swiper-button-prev {
+  left: 4px;
+  right: auto;
+}
+
+.swiper-button-next {
+  left: auto;
+  right: 4px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.swiper-button-prev::after {
+  content: '<';
+}
+
+.swiper-button-next::after {
+  content: '>';
+}
+
+.swiper-button-disabled {
+  cursor: auto;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transform: translateZ(0);
+  transition: opacity 0.3s;
+  z-index: 10;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 8px;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  background: var(--swiper-pagination-bullet-inactive-color, #d4af37);
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  margin: 0 4px;
+  opacity: 0.35;
+  width: 8px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--swiper-pagination-color, #d4af37);
+  opacity: 1;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right,
+.swiper-slide-shadow-top,
+.swiper-slide-shadow-bottom {
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.swiper-slide-shadow-left {
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.swiper-slide-shadow-right {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.swiper-slide-shadow-top {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.swiper-slide-shadow-bottom {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
+}
+

@@ -4,9 +4,6 @@ import { Helmet } from 'react-helmet-async';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { FaStar, FaQuoteLeft } from 'react-icons/fa';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 const Testimonials = () => {
   const testimonials = [
@@ -299,3 +296,4 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+

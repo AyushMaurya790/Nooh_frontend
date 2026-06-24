@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectCoverflow } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-coverflow';
 
 const FeaturedProjects = () => {
   const projects = [
@@ -163,3 +159,4 @@ const FeaturedProjects = () => {
 };
 
 export default FeaturedProjects;
+

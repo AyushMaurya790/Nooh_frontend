@@ -1,8 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 // Components
 import Navbar from './components/Navbar';
@@ -22,14 +20,6 @@ import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      offset: 100,
-    });
-  }, []);
 
   return (
     <HelmetProvider>
@@ -57,3 +47,4 @@ function App() {
 }
 
 export default App;
+

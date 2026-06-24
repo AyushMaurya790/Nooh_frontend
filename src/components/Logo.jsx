@@ -52,10 +52,12 @@ const Logo = ({ className = "h-12" }) => {
       <text
         x="540"
         y="45"
-        fontFamily="Arial, sans-serif"
-        fontSize="24"
-        fill="currentColor"
-        fontWeight="bold"
+        style={{
+          fontFamily: 'Arial, sans-serif',
+          fontSize: '24px',
+          fill: 'currentColor',
+          fontWeight: 'bold'
+        }}
       >
         ™
       </text>

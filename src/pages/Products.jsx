@@ -95,6 +95,10 @@ const Products = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               className="text-5xl md:text-7xl font-luxury font-bold text-gradient-gold mb-6"
+              style={{
+  lineHeight: "1.15",
+  paddingBottom: "0.15em"
+}}
             >
               Product Gallery
             </motion.h1>

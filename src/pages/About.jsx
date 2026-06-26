@@ -28,6 +28,10 @@ const About = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               className="text-5xl md:text-7xl font-luxury font-bold text-gradient-gold mb-6"
+              style={{
+  lineHeight: "1.15",
+  paddingBottom: "0.15em"
+}}
             >
               About NOOH Living
             </motion.h1>
@@ -163,7 +167,11 @@ const About = () => {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <h2 className="text-4xl md:text-6xl font-luxury font-bold text-gradient-gold mb-4">
+              <h2 className="text-4xl md:text-6xl font-luxury font-bold text-gradient-gold mb-4"
+              style={{
+  lineHeight: "1.15",
+  paddingBottom: "0.15em"
+}}>
                 Why Choose NOOH?
               </h2>
               <p className="text-xl text-white/70 max-w-3xl mx-auto">

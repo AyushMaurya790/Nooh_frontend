@@ -154,7 +154,11 @@ const NoohStar = () => {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <h2 className="text-4xl md:text-6xl font-luxury font-bold text-gradient-gold mb-4">
+              <h2 className="text-4xl md:text-6xl font-luxury font-bold text-gradient-gold mb-4"
+              style={{
+  lineHeight: "1.15",
+  paddingBottom: "0.15em"
+}}>
                 System Features
               </h2>
               <p className="text-xl text-white/70 max-w-3xl mx-auto">
@@ -192,7 +196,11 @@ const NoohStar = () => {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <h2 className="text-4xl md:text-6xl font-luxury font-bold text-gradient-gold mb-4">
+              <h2 className="text-4xl md:text-6xl font-luxury font-bold text-gradient-gold mb-4"
+              style={{
+  lineHeight: "1.15",
+  paddingBottom: "0.15em"
+}}>
                 Design Options
               </h2>
               <p className="text-xl text-white/70 max-w-3xl mx-auto">

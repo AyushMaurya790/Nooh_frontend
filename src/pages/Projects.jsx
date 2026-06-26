@@ -94,6 +94,10 @@ const Projects = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               className="text-5xl md:text-7xl font-luxury font-bold text-gradient-gold mb-6"
+              style={{
+  lineHeight: "1.15",
+  paddingBottom: "0.15em"
+}}
             >
               Our Projects
             </motion.h1>

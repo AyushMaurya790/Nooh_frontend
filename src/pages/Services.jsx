@@ -39,7 +39,10 @@ const Services = () => {
       title: 'Luxury Interior Design',
       description: 'Complete interior design solutions tailored to your lifestyle and preferences.',
       features: ['3D Visualization', 'Space Planning', 'Custom Furniture', 'Turnkey Execution'],
-      image: '/images/luxury-interior.jpeg',
+
+      image: '/image/laxury.jpg',
+
+  
     },
     {
       title: 'Modular Kitchen',
@@ -57,7 +60,7 @@ const Services = () => {
       title: 'Turnkey Construction',
       description: 'End-to-end project management from concept to completion for residential and commercial spaces.',
       features: ['Complete Project Management', 'Quality Assurance', 'Timely Delivery', 'Post-Delivery Support'],
-      image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2031',
+      image: '/image/tumkey-img.png',
     },
   ];
 

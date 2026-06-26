@@ -56,7 +56,7 @@ const Products = () => {
       id: 7,
       title: 'Galaxy Ceiling Effect',
       category: 'Fiber Optic',
-      image: 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=2070',
+      image: '/image/galaxy.jpg',
     },
     {
       id: 8,

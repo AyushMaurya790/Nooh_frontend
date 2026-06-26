@@ -36,7 +36,7 @@ const Projects = () => {
       location: 'Bangalore, Karnataka',
       area: '10000 sq.ft',
       year: '2023',
-      image: 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=2070',
+      image: '/image/office.jpg',
       description: 'Modern office design with acoustic stretch ceilings and smart lighting',
     },
     {

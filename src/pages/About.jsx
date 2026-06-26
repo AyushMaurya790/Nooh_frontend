@@ -59,7 +59,7 @@ const About = () => {
                   Who <span className="text-gradient-gold">We Are</span>
                 </h2>
                 <p className="text-white/80 mb-6 leading-relaxed">
-                  <strong className="text-luxury-gold">NOOH Living Elevated LLP</strong> is a premier 
+                  <strong className="text-gradient-gold">NOOH Living Elevated LLP</strong> is a premier 
                   luxury interior design company specializing in cutting-edge stretch ceiling solutions, 
                   fiber optic systems, and complete turnkey projects.
                 </p>

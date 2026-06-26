@@ -22,25 +22,27 @@ const FeaturedServices = () => {
       icon: FaStar,
       title: 'Fiber Optic Star Ceiling',
       description: 'Transform your space with mesmerizing star ceiling effects and galaxy ceiling systems.',
-      image: '/images/abc.jpeg',
+      image: '/images/fiber-optic.png'
+      ,
     },
     {
       icon: FaPaintBrush,
       title: 'Embroidery Wall Covering',
       description: 'Luxurious embroidered wall fabrics and custom wall mural printing for elegant interiors.',
-      image: '/images/celling.png',
+      image: '/images/abc.jpeg',
     },
     {
       icon: FaLightbulb,
       title: 'LED Backlit Panels',
       description: 'Energy-efficient LED ceiling and wall panels with RGBW & tunable white systems.',
-      image: '/images/abc.jpeg',
+      image: '/images/led-backlit.png',
     },
     {
       icon: FaCouch,
       title: 'Luxury Interior Design',
       description: 'Complete interior design solutions with modular kitchens and bespoke luxury furniture.',
-      image: '/images/celling.png',
+      image: '/images/luxury-interior.jpeg'
+      ,
     },
     {
       icon: FaBuilding,

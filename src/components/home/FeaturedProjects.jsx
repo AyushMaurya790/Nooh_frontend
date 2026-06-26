@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import 'swiper/css/navigation';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectCoverflow } from 'swiper/modules';
 
@@ -142,22 +144,39 @@ const FeaturedProjects = () => {
           </Link>
         </motion.div>
       </div>
+<style jsx>{`
+  .featured-projects-slider {
+    padding: 40px 0;
+  }
 
-      <style jsx>{`
-        .featured-projects-slider {
-          padding: 40px 0;
-        }
-        .featured-projects-slider .swiper-slide {
-          width: 350px;
-        }
-        .featured-projects-slider .swiper-button-next,
-        .featured-projects-slider .swiper-button-prev {
-          color: #d4af37;
-        }
-        .featured-projects-slider .swiper-pagination-bullet {
-          background: #d4af37;
-        }
-      `}</style>
+  .featured-projects-slider .swiper-slide {
+    width: 350px;
+  }
+
+  .featured-projects-slider .swiper-button-next,
+  .featured-projects-slider .swiper-button-prev {
+    color: #d4af37;
+  }
+
+  
+  .featured-projects-slider .swiper-pagination-bullet {
+    background: #d4af37;
+  }
+    .featured-projects-slider .swiper-button-next,
+.featured-projects-slider .swiper-button-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-projects-slider .swiper-button-next::after,
+.featured-projects-slider .swiper-button-prev::after {
+  position: static;
+  margin: 0;
+}
+`}
+
+</style>
     </section>
   );
 };

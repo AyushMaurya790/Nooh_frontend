@@ -27,7 +27,7 @@ const Services = () => {
       title: 'Wall Mural Printing',
       description: 'Custom wall murals that bring your vision to life with stunning high-resolution printing.',
       features: ['HD Printing Quality', 'Custom Designs', 'Durable Materials', 'Professional Installation'],
-      image: '/images/wall-mural.png',
+      image: '/images/embroidery-wall.png',
     },
     {
       title: 'LED Backlit Ceiling & Wall Panels',

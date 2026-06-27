@@ -24,7 +24,7 @@ const FeaturedProjects = () => {
       title: 'Modern Office Space',
       category: 'Commercial',
       location: 'Bangalore',
-      image: '/image/office.jpg',
+      image: 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=2070',
     },
     {
       title: 'Luxury Penthouse',

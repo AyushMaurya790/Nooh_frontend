@@ -16,39 +16,37 @@ const FeaturedServices = () => {
       icon: FaCog,
       title: 'Stretch Ceiling Solutions',
       description: 'Premium textile & translucent stretch ceiling systems with innovative designs and superior quality.',
-      image: '/images/celling.png',
+      image: '/images/star-ceiling.png',
     },
     {
       icon: FaStar,
       title: 'Fiber Optic Star Ceiling',
       description: 'Transform your space with mesmerizing star ceiling effects and galaxy ceiling systems.',
-      image: '/images/abc.jpeg'
-      ,
+      image: '/images/abc.jpeg',
     },
     {
       icon: FaPaintBrush,
       title: 'Embroidery Wall Covering',
       description: 'Luxurious embroidered wall fabrics and custom wall mural printing for elegant interiors.',
-      image: '/images/abc.jpeg',
+      image: '/images/celling.png',
     },
     {
       icon: FaLightbulb,
       title: 'LED Backlit Panels',
       description: 'Energy-efficient LED ceiling and wall panels with RGBW & tunable white systems.',
-      image: '/images/abc.jpeg',
+      image: '/images/led-backlit.png',
     },
     {
       icon: FaCouch,
       title: 'Luxury Interior Design',
       description: 'Complete interior design solutions with modular kitchens and bespoke luxury furniture.',
-      image: '/images/abc.jpeg'
-      ,
+      image: '/images/celling.png',
     },
     {
       icon: FaBuilding,
       title: 'Turnkey Construction',
       description: 'End-to-end construction and turnkey project management for residential & commercial spaces.',
-      image: '/image/tumkey-img.png',
+      image: '/images/abc.jpeg',
     },
   ];
 

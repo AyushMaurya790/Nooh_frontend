@@ -26,13 +26,13 @@ const Products = () => {
       id: 2,
       title: 'Fiber Optic Star Ceiling',
       category: 'Fiber Optic',
-      image: '/image/fiber-optic.png',
+      image: '/images/fiber-optic.png',
     },
     {
       id: 3,
       title: 'Embroidery Wall Fabric',
       category: 'Wall Coverings',
-      image: 'https://embroidery-wall.png',
+      image: '/images/embroidery-wall.png',
     },
     {
       id: 4,

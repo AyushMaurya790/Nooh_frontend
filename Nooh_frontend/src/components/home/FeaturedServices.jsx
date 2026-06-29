@@ -46,7 +46,7 @@ const FeaturedServices = () => {
       icon: FaBuilding,
       title: 'Turnkey Construction',
       description: 'End-to-end construction and turnkey project management for residential & commercial spaces.',
-      image: '/image/tumkey-img.png',
+      image: '/image/tumkey-img.jpeg',
     },
   ];
 

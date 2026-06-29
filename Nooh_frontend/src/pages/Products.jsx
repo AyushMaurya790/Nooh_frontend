@@ -26,13 +26,13 @@ const Products = () => {
       id: 2,
       title: 'Fiber Optic Star Ceiling',
       category: 'Fiber Optic',
-      image: '/images/fiber-optic.png',
+      image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070',
     },
     {
       id: 3,
       title: 'Embroidery Wall Fabric',
       category: 'Wall Coverings',
-      image: '/images/embroidery-wall.png',
+      image: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=2074',
     },
     {
       id: 4,
@@ -56,7 +56,7 @@ const Products = () => {
       id: 7,
       title: 'Galaxy Ceiling Effect',
       category: 'Fiber Optic',
-      image: '/image/galaxy.jpg',
+      image: 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=2070',
     },
     {
       id: 8,
